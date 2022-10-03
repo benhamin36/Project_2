@@ -1,0 +1,11 @@
+: :Queries:-:,
+.,. Rules:-:a''
+#?()+*Fact this entire thing is a comment
+#|notALineComment|# Rules
+FactsSchemes
+x 'strings'
+'not two '' strings'
+
+#| This comment is on
+multiple lines |#
+'end of file string'

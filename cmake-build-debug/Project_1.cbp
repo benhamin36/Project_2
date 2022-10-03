@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_1">
+				<Option output="C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Project_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project_1/fast">
+				<Option output="C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Project_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bigbe/Documents/GitHub/Project_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/AddAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/AddAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/BadStringAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/BadStringAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/BlockCommentAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/BlockCommentAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/ColonAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/ColonAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/ColonDashAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/ColonDashAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/CommaAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/CommaAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/FactsAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/FactsAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/IdAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/IdAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/LeftParenAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/LeftParenAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Lexer.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Lexer.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/LineCommentAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/LineCommentAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/MultiplyAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/MultiplyAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Parser.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Parser.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/PeriodAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/PeriodAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/QMarkAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/QMarkAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/QueriesAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/QueriesAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/RightParenAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/RightParenAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/RulesAutomata.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/RulesAutomata.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/SchemesAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/SchemesAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/StringAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/StringAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Token.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Token.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/main.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
