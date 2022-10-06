@@ -113,6 +113,10 @@ CMakeFiles/Project_1.dir/main.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
  C:\Users\bigbe\Documents\GitHub\Project_2\Parser.h \
+ C:\Users\bigbe\Documents\GitHub\Project_2\Rule.h \
+ C:\Users\bigbe\Documents\GitHub\Project_2\Predicate.h \
+ C:\Users\bigbe\Documents\GitHub\Project_2\Parameter.h \
+ C:\Users\bigbe\Documents\GitHub\Project_2\DatalogProgram.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \

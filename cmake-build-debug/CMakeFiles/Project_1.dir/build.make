@@ -82,10 +82,66 @@ CMakeFiles/Project_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bigbe\Documents\GitHub\Project_2\main.cpp -o CMakeFiles\Project_1.dir\main.cpp.s
 
+CMakeFiles/Project_1.dir/Parameter.cpp.obj: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Parameter.cpp.obj: ../Parameter.cpp
+CMakeFiles/Project_1.dir/Parameter.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_1.dir/Parameter.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/Parameter.cpp.obj -MF CMakeFiles\Project_1.dir\Parameter.cpp.obj.d -o CMakeFiles\Project_1.dir\Parameter.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\Parameter.cpp
+
+CMakeFiles/Project_1.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Parameter.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bigbe\Documents\GitHub\Project_2\Parameter.cpp > CMakeFiles\Project_1.dir\Parameter.cpp.i
+
+CMakeFiles/Project_1.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Parameter.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bigbe\Documents\GitHub\Project_2\Parameter.cpp -o CMakeFiles\Project_1.dir\Parameter.cpp.s
+
+CMakeFiles/Project_1.dir/Predicate.cpp.obj: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Predicate.cpp.obj: ../Predicate.cpp
+CMakeFiles/Project_1.dir/Predicate.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/Predicate.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/Predicate.cpp.obj -MF CMakeFiles\Project_1.dir\Predicate.cpp.obj.d -o CMakeFiles\Project_1.dir\Predicate.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\Predicate.cpp
+
+CMakeFiles/Project_1.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Predicate.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bigbe\Documents\GitHub\Project_2\Predicate.cpp > CMakeFiles\Project_1.dir\Predicate.cpp.i
+
+CMakeFiles/Project_1.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Predicate.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bigbe\Documents\GitHub\Project_2\Predicate.cpp -o CMakeFiles\Project_1.dir\Predicate.cpp.s
+
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.obj: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.obj: ../DatalogProgram.cpp
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/DatalogProgram.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/DatalogProgram.cpp.obj -MF CMakeFiles\Project_1.dir\DatalogProgram.cpp.obj.d -o CMakeFiles\Project_1.dir\DatalogProgram.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\DatalogProgram.cpp
+
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/DatalogProgram.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bigbe\Documents\GitHub\Project_2\DatalogProgram.cpp > CMakeFiles\Project_1.dir\DatalogProgram.cpp.i
+
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/DatalogProgram.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bigbe\Documents\GitHub\Project_2\DatalogProgram.cpp -o CMakeFiles\Project_1.dir\DatalogProgram.cpp.s
+
+CMakeFiles/Project_1.dir/Rule.cpp.obj: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Rule.cpp.obj: ../Rule.cpp
+CMakeFiles/Project_1.dir/Rule.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/Rule.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/Rule.cpp.obj -MF CMakeFiles\Project_1.dir\Rule.cpp.obj.d -o CMakeFiles\Project_1.dir\Rule.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\Rule.cpp
+
+CMakeFiles/Project_1.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Rule.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bigbe\Documents\GitHub\Project_2\Rule.cpp > CMakeFiles\Project_1.dir\Rule.cpp.i
+
+CMakeFiles/Project_1.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Rule.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bigbe\Documents\GitHub\Project_2\Rule.cpp -o CMakeFiles\Project_1.dir\Rule.cpp.s
+
 CMakeFiles/Project_1.dir/Parser.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Parser.cpp.obj: ../Parser.cpp
 CMakeFiles/Project_1.dir/Parser.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_1.dir/Parser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_1.dir/Parser.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/Parser.cpp.obj -MF CMakeFiles\Project_1.dir\Parser.cpp.obj.d -o CMakeFiles\Project_1.dir\Parser.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\Parser.cpp
 
 CMakeFiles/Project_1.dir/Parser.cpp.i: cmake_force
@@ -99,7 +155,7 @@ CMakeFiles/Project_1.dir/Parser.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj: ../ColonAutomaton.cpp
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\ColonAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\ColonAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\ColonAutomaton.cpp
 
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i: cmake_force
@@ -113,7 +169,7 @@ CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj: ../ColonDashAutomaton.cpp
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\ColonDashAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\ColonDashAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\ColonDashAutomaton.cpp
 
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i: cmake_force
@@ -127,7 +183,7 @@ CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/Lexer.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Lexer.cpp.obj: ../Lexer.cpp
 CMakeFiles/Project_1.dir/Lexer.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/Lexer.cpp.obj -MF CMakeFiles\Project_1.dir\Lexer.cpp.obj.d -o CMakeFiles\Project_1.dir\Lexer.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\Lexer.cpp
 
 CMakeFiles/Project_1.dir/Lexer.cpp.i: cmake_force
@@ -141,7 +197,7 @@ CMakeFiles/Project_1.dir/Lexer.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/Token.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Token.cpp.obj: ../Token.cpp
 CMakeFiles/Project_1.dir/Token.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/Token.cpp.obj -MF CMakeFiles\Project_1.dir\Token.cpp.obj.d -o CMakeFiles\Project_1.dir\Token.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\Token.cpp
 
 CMakeFiles/Project_1.dir/Token.cpp.i: cmake_force
@@ -155,7 +211,7 @@ CMakeFiles/Project_1.dir/Token.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/CommaAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/CommaAutomaton.cpp.obj: ../CommaAutomaton.cpp
 CMakeFiles/Project_1.dir/CommaAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project_1.dir/CommaAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Project_1.dir/CommaAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/CommaAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\CommaAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\CommaAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\CommaAutomaton.cpp
 
 CMakeFiles/Project_1.dir/CommaAutomaton.cpp.i: cmake_force
@@ -169,7 +225,7 @@ CMakeFiles/Project_1.dir/CommaAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.obj: ../PeriodAutomaton.cpp
 CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\PeriodAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\PeriodAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\PeriodAutomaton.cpp
 
 CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.i: cmake_force
@@ -183,7 +239,7 @@ CMakeFiles/Project_1.dir/PeriodAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.obj: ../QMarkAutomaton.cpp
 CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\QMarkAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\QMarkAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\QMarkAutomaton.cpp
 
 CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.i: cmake_force
@@ -197,7 +253,7 @@ CMakeFiles/Project_1.dir/QMarkAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.obj: ../LeftParenAutomaton.cpp
 CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\LeftParenAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\LeftParenAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\LeftParenAutomaton.cpp
 
 CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.i: cmake_force
@@ -211,7 +267,7 @@ CMakeFiles/Project_1.dir/LeftParenAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.obj: ../RightParenAutomaton.cpp
 CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\RightParenAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\RightParenAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\RightParenAutomaton.cpp
 
 CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.i: cmake_force
@@ -225,7 +281,7 @@ CMakeFiles/Project_1.dir/RightParenAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.obj: ../MultiplyAutomaton.cpp
 CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\MultiplyAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\MultiplyAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\MultiplyAutomaton.cpp
 
 CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.i: cmake_force
@@ -239,7 +295,7 @@ CMakeFiles/Project_1.dir/MultiplyAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/AddAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/AddAutomaton.cpp.obj: ../AddAutomaton.cpp
 CMakeFiles/Project_1.dir/AddAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Project_1.dir/AddAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Project_1.dir/AddAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/AddAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\AddAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\AddAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\AddAutomaton.cpp
 
 CMakeFiles/Project_1.dir/AddAutomaton.cpp.i: cmake_force
@@ -253,7 +309,7 @@ CMakeFiles/Project_1.dir/AddAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.obj: ../SchemesAutomaton.cpp
 CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\SchemesAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\SchemesAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\SchemesAutomaton.cpp
 
 CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.i: cmake_force
@@ -267,7 +323,7 @@ CMakeFiles/Project_1.dir/SchemesAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/FactsAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/FactsAutomaton.cpp.obj: ../FactsAutomaton.cpp
 CMakeFiles/Project_1.dir/FactsAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Project_1.dir/FactsAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project_1.dir/FactsAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/FactsAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\FactsAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\FactsAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\FactsAutomaton.cpp
 
 CMakeFiles/Project_1.dir/FactsAutomaton.cpp.i: cmake_force
@@ -281,7 +337,7 @@ CMakeFiles/Project_1.dir/FactsAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/RulesAutomata.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/RulesAutomata.cpp.obj: ../RulesAutomata.cpp
 CMakeFiles/Project_1.dir/RulesAutomata.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Project_1.dir/RulesAutomata.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project_1.dir/RulesAutomata.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/RulesAutomata.cpp.obj -MF CMakeFiles\Project_1.dir\RulesAutomata.cpp.obj.d -o CMakeFiles\Project_1.dir\RulesAutomata.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\RulesAutomata.cpp
 
 CMakeFiles/Project_1.dir/RulesAutomata.cpp.i: cmake_force
@@ -295,7 +351,7 @@ CMakeFiles/Project_1.dir/RulesAutomata.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.obj: ../QueriesAutomaton.cpp
 CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\QueriesAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\QueriesAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\QueriesAutomaton.cpp
 
 CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.i: cmake_force
@@ -309,7 +365,7 @@ CMakeFiles/Project_1.dir/QueriesAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/IdAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/IdAutomaton.cpp.obj: ../IdAutomaton.cpp
 CMakeFiles/Project_1.dir/IdAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Project_1.dir/IdAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project_1.dir/IdAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/IdAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\IdAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\IdAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\IdAutomaton.cpp
 
 CMakeFiles/Project_1.dir/IdAutomaton.cpp.i: cmake_force
@@ -323,7 +379,7 @@ CMakeFiles/Project_1.dir/IdAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.obj: ../LineCommentAutomaton.cpp
 CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\LineCommentAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\LineCommentAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\LineCommentAutomaton.cpp
 
 CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.i: cmake_force
@@ -337,7 +393,7 @@ CMakeFiles/Project_1.dir/LineCommentAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.obj: ../BlockCommentAutomaton.cpp
 CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\BlockCommentAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\BlockCommentAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\BlockCommentAutomaton.cpp
 
 CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.i: cmake_force
@@ -351,7 +407,7 @@ CMakeFiles/Project_1.dir/BlockCommentAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.obj: ../StringAutomaton.cpp
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Project_1.dir/StringAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project_1.dir/StringAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/StringAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\StringAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\StringAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\StringAutomaton.cpp
 
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.i: cmake_force
@@ -365,7 +421,7 @@ CMakeFiles/Project_1.dir/StringAutomaton.cpp.s: cmake_force
 CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.obj: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.obj: ../BadStringAutomaton.cpp
 CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.obj: CMakeFiles/Project_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.obj -MF CMakeFiles\Project_1.dir\BadStringAutomaton.cpp.obj.d -o CMakeFiles\Project_1.dir\BadStringAutomaton.cpp.obj -c C:\Users\bigbe\Documents\GitHub\Project_2\BadStringAutomaton.cpp
 
 CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.i: cmake_force
@@ -379,6 +435,10 @@ CMakeFiles/Project_1.dir/BadStringAutomaton.cpp.s: cmake_force
 # Object files for target Project_1
 Project_1_OBJECTS = \
 "CMakeFiles/Project_1.dir/main.cpp.obj" \
+"CMakeFiles/Project_1.dir/Parameter.cpp.obj" \
+"CMakeFiles/Project_1.dir/Predicate.cpp.obj" \
+"CMakeFiles/Project_1.dir/DatalogProgram.cpp.obj" \
+"CMakeFiles/Project_1.dir/Rule.cpp.obj" \
 "CMakeFiles/Project_1.dir/Parser.cpp.obj" \
 "CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj" \
 "CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj" \
@@ -405,6 +465,10 @@ Project_1_OBJECTS = \
 Project_1_EXTERNAL_OBJECTS =
 
 Project_1.exe: CMakeFiles/Project_1.dir/main.cpp.obj
+Project_1.exe: CMakeFiles/Project_1.dir/Parameter.cpp.obj
+Project_1.exe: CMakeFiles/Project_1.dir/Predicate.cpp.obj
+Project_1.exe: CMakeFiles/Project_1.dir/DatalogProgram.cpp.obj
+Project_1.exe: CMakeFiles/Project_1.dir/Rule.cpp.obj
 Project_1.exe: CMakeFiles/Project_1.dir/Parser.cpp.obj
 Project_1.exe: CMakeFiles/Project_1.dir/ColonAutomaton.cpp.obj
 Project_1.exe: CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.obj
@@ -430,7 +494,7 @@ Project_1.exe: CMakeFiles/Project_1.dir/build.make
 Project_1.exe: CMakeFiles/Project_1.dir/linklibs.rsp
 Project_1.exe: CMakeFiles/Project_1.dir/objects1.rsp
 Project_1.exe: CMakeFiles/Project_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Project_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bigbe\Documents\GitHub\Project_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Project_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Project_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

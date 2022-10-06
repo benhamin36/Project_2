@@ -118,6 +118,12 @@
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/CommaAutomaton.h">
 			<Option target="Project_1"/>
 		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/DatalogProgram.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/DatalogProgram.h">
+			<Option target="Project_1"/>
+		</Unit>
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/FactsAutomaton.cpp">
 			<Option target="Project_1"/>
 		</Unit>
@@ -154,6 +160,12 @@
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/MultiplyAutomaton.h">
 			<Option target="Project_1"/>
 		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Parameter.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Parameter.h">
+			<Option target="Project_1"/>
+		</Unit>
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Parser.cpp">
 			<Option target="Project_1"/>
 		</Unit>
@@ -164,6 +176,12 @@
 			<Option target="Project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/PeriodAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Predicate.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Predicate.h">
 			<Option target="Project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/QMarkAutomaton.cpp">
@@ -182,6 +200,12 @@
 			<Option target="Project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/RightParenAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Rule.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/Rule.h">
 			<Option target="Project_1"/>
 		</Unit>
 		<Unit filename="C:/Users/bigbe/Documents/GitHub/Project_2/RulesAutomata.cpp">

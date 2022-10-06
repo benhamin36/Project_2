@@ -7,12 +7,30 @@
 
 
 #include "Token.h"
+#include "Rule.h"
+#include "DatalogProgram.h"
 #include <vector>
 
 class Parser {
 private:
     std::vector<Token*> tokens;
     int pointer;
+
+    //We'll keep track of these throughout the parsing project to pass into a
+    //DatalogProgram structure.
+    std::vector<std::string> schemes;
+    std::vector<std::string> facts;
+    std::vector<Rule> rules;
+    std::vector<Predicate> queries;
+    std::vector<std::string> domain;
+
+    std::string schemeBuilderString;
+    std::string factBuilderString;
+    Rule ruleBuilder;
+    Predicate rulePredicate;
+    Predicate queryBuilder;
+
+    int builderMode;
 
     //We won't use this once we have the data
     //structures going, but we'll use this
@@ -43,6 +61,8 @@ private:
 
     void match(TokenType type);
 
+    void addInfo();
+
 public:
     Parser();
     ~Parser();
@@ -50,7 +70,7 @@ public:
     // TODO: This is actually going to return a data structure with
     //the contents of a datalog program. We're going to start by
     //having it return a string that represents the program.
-    std::string Run(std::vector<Token*> tokenVector);
+    DatalogProgram Run(std::vector<Token*> tokenVector);
 };
 
 #endif //PROJECT_2_PARSER_H
