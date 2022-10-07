@@ -294,7 +294,7 @@ void Parser::match(TokenType type) {
         //If we have a string, we need to add it to the domain if it isn't already in there.
         if (tokens[pointer]->getType() == TokenType::STRING && builderMode == 1) {
             bool alreadyInDomain = false;
-            for (int i = 0; i < domain.size(); i++) {
+            for (int i = 0; i < (int) domain.size(); i++) {
                 if (domain[i] == tokens[pointer]->getValue()) {
                     alreadyInDomain = true;
                 }
