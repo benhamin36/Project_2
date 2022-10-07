@@ -71,6 +71,8 @@ public:
     //the contents of a datalog program. We're going to start by
     //having it return a string that represents the program.
     DatalogProgram Run(std::vector<Token*> tokenVector);
+
+    Token* currentToken();
 };
 
 #endif //PROJECT_2_PARSER_H

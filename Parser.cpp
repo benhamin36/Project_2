@@ -20,6 +20,10 @@ Parser::~Parser() {
     tokens.clear();
 }
 
+Token* Parser::currentToken() {
+    return tokens[pointer];
+}
+
 Parser::Parser() {
 /*    schemes = std::vector<std::string>();
     facts = std::vector<std::string>();
@@ -302,8 +306,7 @@ void Parser::match(TokenType type) {
         returnable += " " + tokens[pointer]->toString();
         pointer++;
     } else {
-        std::cout << "Failure!\n  " + tokens[pointer]->toString();
-        throw "expected: " + Token::typeToString(type) + ", actual: " + tokens[pointer]->toString();
+        throw tokens[pointer]->toString();
     }
 }
 

@@ -34,7 +34,11 @@ int main(int argc, char** argv) {
 
     std::vector<Token*> outPut = lexer->getTokens();
 
-    cout << parser->Run(outPut).toString();
+    try {
+        cout << parser->Run(outPut).toString();
+    } catch (...) {
+        std::cout << "Failure!\n  " + parser->currentToken()->toString();
+    }
 
     delete lexer;
     delete parser;
