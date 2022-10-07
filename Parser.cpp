@@ -14,10 +14,10 @@
 #include <algorithm>
 
 Parser::~Parser() {
-    for (Token* token : tokens) {
-        //delete token;
+    /*for (Token* token : tokens) {
+        delete token;
     }
-    tokens.clear();
+    tokens.clear();*/
 }
 
 Token* Parser::currentToken() {
