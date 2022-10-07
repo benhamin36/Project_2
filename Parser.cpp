@@ -15,7 +15,7 @@
 
 Parser::~Parser() {
     for (Token* token : tokens) {
-        delete token;
+        //delete token;
     }
     tokens.clear();
 }
