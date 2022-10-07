@@ -36,7 +36,7 @@ Parser::Parser() {
 bool checkIfComment(Token* token) {
     if (token->getType() == TokenType::COMMENT) {
         //TODO: I think this works but double-check
-        delete token;
+        //delete token;
         return true;
     }
     return false;
