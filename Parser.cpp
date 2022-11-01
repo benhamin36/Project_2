@@ -128,12 +128,11 @@ void Parser::parseQueryList() {
 void Parser::parseScheme() {
     //We could double check that we have an ID before we go, but
     //if not we'll get the throw when we do the match function anyway
-    schemeBuilderString = "";
+    schemeBuilder = Predicate();
 
-    addInfo();
+    schemeBuilder.setId(tokens[pointer]->getValue());
     match(TokenType::ID);
 
-    addInfo();
     match(TokenType::LEFT_PAREN);
 
     addInfo();
@@ -141,21 +140,19 @@ void Parser::parseScheme() {
 
     parseIdList();
 
-    addInfo();
     match(TokenType::RIGHT_PAREN);
 
-    schemes.push_back(schemeBuilderString);
+    schemes.push_back(schemeBuilder);
 }
 
 void Parser::parseFact() {
     //We could double check that we have an ID before we go, but
     //if not we'll get the throw when we do the match function anyway
-    factBuilderString = "";
+    factBuilder = Predicate();
 
-    addInfo();
+    factBuilder.setId(tokens[pointer]->getValue());
     match(TokenType::ID);
 
-    addInfo();
     match(TokenType::LEFT_PAREN);
 
     addInfo();
@@ -163,13 +160,11 @@ void Parser::parseFact() {
 
     parseStringList();
 
-    addInfo();
     match(TokenType::RIGHT_PAREN);
 
-    addInfo();
     match(TokenType::PERIOD);
 
-    facts.push_back(factBuilderString);
+    facts.push_back(factBuilder);
 }
 
 void Parser::parseRule() {
@@ -255,7 +250,6 @@ void Parser::parseParameterList() {
 
 void Parser::parseStringList() {
     if (tokens[pointer]->getType() == TokenType::COMMA) {
-        addInfo();
         match(TokenType::COMMA);
         addInfo();
         match(TokenType::STRING);
@@ -267,9 +261,6 @@ void Parser::parseStringList() {
 
 void Parser::parseIdList() {
     if (tokens[pointer]->getType() == TokenType::COMMA) {
-        if (builderMode <= 1) {
-            addInfo();
-        }
         match(TokenType::COMMA);
         addInfo();
         match(TokenType::ID);
@@ -313,10 +304,10 @@ void Parser::match(TokenType type) {
 void Parser::addInfo() {
     switch(builderMode) {
         case 0:
-            schemeBuilderString += tokens[pointer]->getValue();
+            schemeBuilder.addParameter(Parameter(tokens[pointer]->getValue()));
             break;
         case 1:
-            factBuilderString += tokens[pointer]->getValue();
+            factBuilder.addParameter(Parameter(tokens[pointer]->getValue()));
             break;
         case 2:
             rulePredicate.addParameter(Parameter(tokens[pointer]->getValue()));

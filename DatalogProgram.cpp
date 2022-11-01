@@ -10,7 +10,7 @@
 
 DatalogProgram::DatalogProgram() {}
 
-DatalogProgram::DatalogProgram(std::vector<std::string> schemes, std::vector<std::string> facts, std::vector<Rule> rules,std::vector<Predicate> queries, std::vector<std::string> domain) {
+DatalogProgram::DatalogProgram(std::vector<Predicate> schemes, std::vector<Predicate> facts, std::vector<Rule> rules,std::vector<Predicate> queries, std::vector<std::string> domain) {
     this->schemes = schemes;
     this->facts = facts;
     this->rules = rules;
@@ -24,14 +24,14 @@ std::string DatalogProgram::toString() {
     returnable.append("Schemes(");
     returnable.append(std::to_string(schemes.size()));
     returnable.append("):\n");
-    for (std::string scheme : schemes) {
-        returnable.append( "  " + scheme + "\n");
+    for (Predicate scheme : schemes) {
+        returnable.append( "  " + scheme.toString() + "\n");
     }
     returnable.append("Facts(");
     returnable.append(std::to_string(facts.size()));
     returnable.append("):\n");
-    for (std::string fact : facts) {
-        returnable.append( "  " + fact + "\n");
+    for (Predicate fact : facts) {
+        returnable.append( "  " + fact.toString() + ".\n");
     }
     returnable.append("Rules(");
     returnable.append(std::to_string(rules.size()));

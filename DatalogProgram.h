@@ -13,13 +13,13 @@
 class DatalogProgram {
 public:
     DatalogProgram();
-    DatalogProgram(std::vector<std::string> schemes, std::vector<std::string> facts, std::vector<Rule> rules, std::vector<Predicate> queries, std::vector<std::string> domain);
+    DatalogProgram(std::vector<Predicate> schemes, std::vector<Predicate> facts, std::vector<Rule> rules, std::vector<Predicate> queries, std::vector<std::string> domain);
 
     std::string toString();
 private:
-    std::vector<std::string> schemes;
+    std::vector<Predicate> schemes;
 
-    std::vector<std::string> facts;
+    std::vector<Predicate> facts;
 
     std::vector<Rule> rules;
 

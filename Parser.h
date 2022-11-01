@@ -18,14 +18,15 @@ private:
 
     //We'll keep track of these throughout the parsing project to pass into a
     //DatalogProgram structure.
-    std::vector<std::string> schemes;
-    std::vector<std::string> facts;
+    std::vector<Predicate> schemes;
+    std::vector<Predicate> facts;
     std::vector<Rule> rules;
     std::vector<Predicate> queries;
     std::vector<std::string> domain;
 
-    std::string schemeBuilderString;
-    std::string factBuilderString;
+    Predicate schemeBuilder;
+    Predicate factBuilder;
+
     Rule ruleBuilder;
     Predicate rulePredicate;
     Predicate queryBuilder;
